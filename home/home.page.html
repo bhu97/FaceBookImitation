@@ -1,0 +1,198 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <div slot="start" style="padding: 0px 10px">
+      <ion-icon name="logo-tux" style="width: 40px; height: 30px"></ion-icon>
+    </div>
+
+    <ion-searchbar mode="android" style="padding: 5px 0px">
+      <ion-button routerLink="/offers">
+        <ion-icon
+          name="mail-unread-outline"
+          style="width: 50px; height: 20px"
+        ></ion-icon
+      ></ion-button>
+      <ion-button routerLink="/offers">
+        <ion-icon
+          name="person-add-outline"
+          style="width: 50px; height: 20px"
+        ></ion-icon
+      ></ion-button>
+      <ion-button routerLink="/offers">
+        <ion-icon
+          name="receipt-outline"
+          style="width: 50px; height: 20px"
+        ></ion-icon
+      ></ion-button>
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style="float: left; width: 25%; height: 500px; overflow: auto;">
+    <ion-text>My friends list</ion-text><br />
+    <br />
+    <img
+      src="assets/images/download.png"
+      style="
+        width: 100px;
+        height: 70px;
+        padding-left: 20px;
+        float: left;
+        border-radius: 50%;
+      "
+    />
+    <ion-text
+      style="width: 170px; height: 90px; padding-top: 30px; float: right"
+      >Friend1</ion-text
+    >
+    <img
+      src="assets/images/download2.png"
+      style="
+        width: 100px;
+        height: 70px;
+        padding-left: 20px;
+        float: left;
+        border-radius: 50%;
+      "
+    />
+    <ion-text style="width: 170px; height: 60px; margin-top: 10px; float: right"
+      >Friend2</ion-text
+    >
+    <img
+      src="assets/images/download3.png"
+      style="
+        width: 100px;
+        height: 70px;
+        padding-left: 20px;
+        float: left;
+        border-radius: 50%;
+      "
+    />
+    <ion-text
+      style="width: 170px; height: 100px; margin-top: 10px; float: right"
+      >Friend3</ion-text
+    >
+    <ion-button style="width: 220px; height: 20px">See all friends</ion-button>
+    <br /><br /><ion-text>Friend requests</ion-text><br /><br />
+    <img
+      src="assets/images/download.png"
+      style="
+        width: 100px;
+        height: 70px;
+        padding-left: 30px;
+        float: left;
+        border-radius: 50%;
+      "
+    />
+    <ion-text
+      style="width: 170px; height: 90px; padding-top: 30px; float: right"
+      >Friend1</ion-text
+    >
+    <ion-button style="float: left">Accept </ion-button>
+    <ion-button style="float: right; padding-right: 100px; margin-top: -15px"
+      >Decline </ion-button
+    ><br /><br />
+    <img
+      src="assets/images/download3.png"
+      style="
+        width: 100px;
+        height: 70px;
+        padding-left: 30px;
+        float: left;
+        border-radius: 50%;
+      
+      "
+    />
+    <ion-text
+      style="width: 170px; height: 90px; padding-top: 30px; float: right"
+      >Friend2</ion-text
+    >
+    <ion-button style="float: left">Accept </ion-button>
+    <ion-button style="float: right; padding-right: 100px; margin-top: -15px"
+      >Decline </ion-button
+    >
+    <br /><br />
+    <ion-button style="width: 220px; height: 30px; padding-top:10px"
+      >See all friend requests</ion-button
+    >
+  </div>
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <img src="assets/images/download2.png" style="width: 20px;">
+        <ion-card-subtitle>Friend 1
+          
+        </ion-card-subtitle>
+        <ion-card-title>Friend 1 posted 10 minutes ago</ion-card-title>
+      </ion-card-header>
+      <img
+        src="assets/images/nature.jpg"
+        style="
+          width: 500px;
+          height: 200px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      />
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="chatbubble-outline"></ion-icon>
+        <div>4 Comments</div>
+        
+          
+      </button>
+      <ion-col center text-center>
+        <ion-note> 10 minutes ago </ion-note>
+      </ion-col>
+      <ion-card-content>
+        Keep close to Nature's heart... and break clear away, once in awhile,
+        and climb a mountain or spend a week in the woods. Wash your spirit
+        clean.
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <img src="assets/images/download3.png" style="width: 20px;">
+        <ion-card-subtitle>Friend 1
+        </ion-card-subtitle>
+        <ion-card-title>Friend 1 posted 10 minutes ago</ion-card-title>
+      </ion-card-header>
+      <img
+        src="assets/images/yoga.jpg"
+        style="
+          width: 500px;
+          height: 200px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      />
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>120 Likes</div>
+        </button>
+      </ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="chatbubble-outline"></ion-icon>
+        <div>40 Comments</div>
+        
+          
+      </button>
+      <ion-col center text-center>
+        <ion-note> 10 minutes ago </ion-note>
+      </ion-col>
+      <ion-card-content>
+        Do yoga stay healthy
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
